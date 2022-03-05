@@ -1,0 +1,246 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    
+- intent: more_info
+  examples: |
+    - anything else
+    
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    
+- intent: tution_and_fees
+  examples: |
+    - how can I get the details on tuition fee
+    - what are the information related to tuition fee
+    - I want to know tution fee information 
+    - may I get to know tution fee information 
+    - what information about tuition fees 
+    - what are the tuition expenses for college
+    - information on tution 
+    - information about tution 
+    - information on fee
+    - information about fee
+    - college tuition costs infrmation
+    - data regarding educational cost
+    - what is the total charge of course fees?
+    - what is the cost of course?
+    - how can I find out about the tuition and fees?
+    - what are the cost of education
+    - how much does college cost?
+    - How much money I have to spend to do this course
+    - how much is the minimum expense If I will enroll for this college?
+    
+- intent: program_fee_calculator
+  examples: |
+    - may I know how I can calculate the fees for the course
+    - how I can calculate course fees
+    - how I can access the fees calculator
+    - what does the fees calculator estimates
+    - does the fees calculator calculate the course fees or tution fees?
+    - does the fees calculator estimates the course fees or tution fees?
+    
+- intent: other_fee_calculator
+  examples: |
+    - do I need to consider any extra cost?
+    - do I need to consider any extra fee?
+    - are there any other charges included in the course?
+    - are there any other charges included in the program
+    - are there any hidden fees after I enroll in this course 
+    - are there any hidden fees after I enroll in this program
+    - what other expenses to be consider
+    - is there any other fee excluding the main fees
+    - is there any other fee excluding the main fees in this course
+    - is there any other fee excluding the main fees in this program
+    - what charges are not included 
+    - which charges are not included 
+    - what are the hidden charges 
+    - to think about additional charges
+    - look for futhur charges
+    - Does this program contain any other fees?
+    - should I consider any other cost during the course
+    - should I consider any other cost during the program
+    - are there any supplimentry fees
+    - how can I check for any additonal charges
+    - what are the additional cost
+    - is the health or any insurance included in the fees?
+
+- intent: how_to_pay
+  examples: |
+    - how can I pay
+    - how to make a payment
+    - how to pay for it
+    - what is the procedure for payment
+    - what is the best way to pay
+    - may I know the payment method 
+    - what are the mode of payment?
+    - what are the various ways to make a payment
+    - can you tell me how I can payment?
+    - can you tell me how to make a payment?
+    - How does one go about making a payment?
+    - what is payment policy?
+    - what are the options of payment?
+    - how could I pay?
+    - how will I be able to pay?
+    - how will I be able to make a payment?
+    - what payment methods are available?
+    - what other payment atlernatives are there?
+    - what are the alternatives for the payment
+    - what are the various ways of the payment
+
+- intent: withdrawal_and_refund
+  examples: |
+    - withdrawals and refund
+    - how to get refunds?
+    - how to get withdrawal?
+    - how can I do refunds process?
+    - how can I do withdrawal process?
+    - what are the steps to withdraw
+    - what are the steps for the refund
+    - how to withdraw from a course?
+    - may I know about refund policy?
+    - is it possible to get the fees back?
+    - what are refund and cancellation procedures?
+    - withdrawal and refund information
+    - can I get information for withdrawal
+    - can I get information for refund procedure
+    - can I get information for refund process
+    - is it possible for me to know more about the cancellation policy?
+    - recession and reimbursement
+    - what data for withdrawal or refunds are available?
+    - tuition fees withdrawal information
+    - fees reimbursed
+    - the expense of withdrawing
+    
+- intent: Financial_Aid
+  examples: |
+    - hello! I need some monetary help
+    - hey, I want to know about financial support given by durham college
+    - can you please assist me with finances?
+    - I am looking for financial information.
+    - will you provide some budgetary information?
+    - what kind of financial data is available?
+    - what financial aid is given to help students?
+    - I want to know financial related support
+    - can i get financial advice here?
+    - how many financial options available? 
+    - how can i Access to financial services?
+    - what are the expense of withdrawing from perticular program?
+    
+- intent: OSAP
+  examples: |
+    - hello! Ontario student assistance programs?
+    - hey, I want to know about financial support given by durham college
+    - can you please assist me with finances?
+    - I am looking for financial information.
+    - what is OSAP program?
+    
+- intent: Scholarship_Bursaries_And_Rewards
+  examples: |
+    - hello! may i know what are the requirements for receiving a scholarship?
+    - what are the information about scholarship?
+    - want to know about a variety of scholarship opportunities?
+    - what are the different types of scholarship information
+    - which burseries are included according to age?
+    - what are the rewards?
+    - What kind of bursaries did you offer in terms of education?
+    - what different options for burseries are there?
+    - can you explain details on burseries provided?
+    - compensation between busries,scholarship and rewards
+    - what are the importance of scholarship, burseries and rewards?
+    - can i get to know about services available for scholarship, burseries and awards?
+    - what prefernces available for scholarship and bursaries? 
+    - what are the scholarship available?
+    - what are the bursaries provided?
+   
+intent: Financial_Planning_or_Counselling
+  examples: |
+    - Is it possible for me to obtain information on financial planning here?
+    - hey there, I would like to have a thorough understanding of finance
+    - I am trying to figure up a budget therefore, i need your help.
+    - hello can you please assist me in creating a budget and resolving financial problems
+    - what financial services are provided by college?
+    - will you guide me on financial management.
+    
+intent: program_fee_calculator
+examples: |
+    -Estimator for Program Fees 
+    - may I know how I can calculate the fees for the course
+    - how I can calculate course fees
+    - how I can access the fees calculator
+    - what does the fees calculator estimates
+    - does the fees calculator calculate the course fees or tution fees?
+    - does the fees calculator estimates the course fees or tution fees?
+    
+
+intent: budget_calculator
+examples: |
+    - calculate yearly income
+    - yearly income calculation
+    - annual income calculation
+    - how to calculate budget?
+    - how can I calculate my earned yearly income? 
+    - how can I figure out how much money I have made in a year?
+    - how can I figure out how much money I've made over the course of the year?
+    - what is my annual income during my study?
+    -how much money do I make every year while I am studying?
+    -how much do I earn every year while I am doing part-time job?
+    -how can i estimate my budget?
+    -how can I figure out how much money I'll need to spend?
+    -what can I do to evaluate my annual earnings?
+    -how to invest money properly?
+    -calculate an estimate of income and expenditure for a set period of time?    
+
+intent: on_campus_employment
+examples: |
+    -on-campus employment
+    -on campus employment
+    -can i have on-campus job?
+    -is there any on-campus job oppurtinities?
+    -what are the jobs available on campus?
+    -part-time jobs available on campus
+     
